@@ -1,0 +1,25 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "A model node app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coder936Practice/node-api-server.git"
+  },
+  "author": "Coder-936",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coder936Practice/node-api-server/issues"
+  },
+  "homepage": "https://github.com/Coder936Practice/node-api-server#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
